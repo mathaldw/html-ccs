@@ -1,0 +1,198 @@
+/*  
+font-family: 'Roboto Condensed', sans-serif;
+*/
+*{ margin: 0px;
+   padding: 0px;
+ box-sizing: border-box;}
+ body{ font-family:'Roboto Condensed', sans-serif;
+       }
+       header{ height: 117.641px;
+               width: 100%;
+               background-color: darkorange;
+               padding: 0px;
+               margin: 0px;
+               padding-left: 30px;
+               padding-right: 30px;}
+               
+               header img{
+                
+                width: 300px;
+                float: right;
+               }
+               header nav{
+                height: 117.641px;
+               }
+               header nav ul li{
+                list-style-type: none;
+                float: left;
+               }
+               header nav ul li a{
+                text-decoration: none;
+                padding: 15px;
+                display: inline;
+                color: black;
+            
+               }
+               header nav ul li a:hover{color: black;
+            background-color: blanchedalmond;
+        font-weight: bolder;}
+        aside{clear: both;
+               width: 30%;
+               padding: 20px;
+               float: left;
+               
+    }
+    aside nav p{font-size: 30px;
+    text-align: center;
+letter-spacing: 16px;}
+    aside nav ul li{
+        font-size: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        list-style-type: none;
+        border-bottom: 2px solid chocolate;
+    }
+    aside nav ul li a{ text-decoration: none;
+    color:black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+aside nav ul li :hover{ color: rgb(138, 90, 32);
+border-bottom:3px solid ;
+background-color:rgba(190, 216, 98, 0.452) ;}
+
+
+aside form{width: 100%;
+    padding: 30px;
+    border: 2px solid color chocolate; 
+    background-color: rgb(233, 163, 138);
+    border-radius: 10px;
+}
+aside form h1{ text-align: center;
+font-size: 20px;
+font-family: 'Dosis', sans-serif;
+padding-bottom: 10px;
+}
+aside form input, aside form textarea{ width: 100%;
+                  padding: 10px;
+                  background-color: rgb(238, 182, 162);
+                  margin-bottom: 10px;
+                 border-radius: 10px;
+                 
+}
+::placeholder{color: aliceblue;}
+textarea{height: 80px;}
+
+aside form button{width: 100%;
+    padding: 10px;
+    background-color: rgb(238, 182, 162);
+    border: 2px; color: chocolate;
+    font-weight: bolder;
+    cursor: pointer;
+    }
+    ::placeholder{color: aliceblue;}
+    aside form button:hover{color:black}
+    
+    main{width: 70%;
+        float: left;}
+
+        main section .recetas1{
+            width: 33.3%;
+            
+            margin: 10px;
+            border: 2px solid chocolate;
+            border-radius: 10px;
+        }
+        main section .recetas1 .imgrec1 {
+            background: url(../receta1.jpeg);
+            height: 200px;
+            background-size: cover;
+            border-radius: 10px 10px 0px 0px;
+        }
+       
+        
+        main section .recetas1 .descripcion{
+            font-family: 'Roboto Condensed', sans-serif;
+            padding: 20px;  
+            background-color: chocolate;
+        }
+
+       
+
+main section .recetas1 button{
+    padding: 10px;
+    width: 100%;
+    background-color: darkkhaki;
+    color: chocolate;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+main section .recetas1 button:hover{background-color: black;}
+
+main section .recetas1 .imgrec1 .precio{
+    width: 19%;
+    background-color: yellowgreen;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 00px 00px 10px 0px;
+}
+
+
+main section .recetas2{
+    width: 33.3%;
+    
+    margin: 10px;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+}
+main section .recetas2 .imgrec2 {
+    background: url(../receta2.jpeg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+main section .recetas2 .descripcion2{
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 20px;  
+    background-color: chocolate;
+}
+
+
+
+main section .recetas2 button{
+padding: 10px;
+width: 100%;
+background-color: darkkhaki;
+color: chocolate;
+border: none;
+border-radius: 10px;
+font-weight: bolder;
+cursor: pointer;
+}
+main section .recetas2 button:hover{background-color: black;}
+
+main section .recetas2 .imgrec2 .precio2{
+width: 19%;
+background-color: yellowgreen;
+font-size: 20px;
+font-weight: bold;
+border: none;
+border-radius: 00px 00px 10px 0px;
+}
+main section .recetas2{ float: right;}
+footer{ clear:both;
+       width: 100%;
+       background-color: chocolate;
+       padding: 30px;
+    margin: 0px;}
+    footer div{ width: 100%;}
+    footer div p {
+        float: right;
+    }
+
+
+
